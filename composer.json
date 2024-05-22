@@ -1,0 +1,14 @@
+{
+    "name": "d-tacq/regression",
+    "type": "project",
+    "require": {
+        "bcosca/fatfree": "^3.8",
+        "mongodb/mongodb": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DTacq\\Regression\\": "../app/"
+        }
+    }
+}
+
