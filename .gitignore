@@ -1,0 +1,5 @@
+webroot/vendor/
+mongo/
+webroot/composer.lock
+webroot/composer.json
+.vscode/
