@@ -15,7 +15,7 @@ services:
       dockerfile: php.dockerfile
     volumes:
       - ./webroot/public:/var/www/html/public
-      - ./webroot/app:/var/www/html/app
+      - ./webroot/App:/var/www/html/App
 
   mongo:
     image: mongo:latest
